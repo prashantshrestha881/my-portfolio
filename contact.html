@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="brand">My Portfolio</div>
+        <button class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="videoDemo.html">Video</a></li>
+          <li><a href="sitereport.html">Report</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="get-in-touch">
+        <h1>Get In Touch</h1>
+        <p>
+          Have questions or want to discuss a project? We'd love to hear from
+          you! Reach out through our contact form below, and our team will
+          respond within 24 hours. Whether you're looking for collaboration,
+          have inquiries about our services, or just want to connect, we're here
+          to help.
+        </p>
+      </div>
+      <div class="contact-container">
+        <h1>Send Us a Message</h1>
+        <p class="subtitle">
+          Fill out the form below and we'll get back to you within 24 hours.
+        </p>
+
+        <form>
+          <div class="form-group">
+            <label for="email">Email Address <span>*</span></label>
+            <input type="email" id="email" placeholder="john@company.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="John Doe" />
+          </div>
+
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" placeholder="Your Company " />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message <span>*</span></label>
+            <textarea
+              id="message"
+              placeholder="Tell us about your project or how we can help you..."
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
